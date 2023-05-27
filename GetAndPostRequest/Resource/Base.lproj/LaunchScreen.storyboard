@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="yTJ-EM-OvL">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.086274504660000001" green="0.15686275059999999" blue="0.035294115539999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="semibold"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="right" semanticContentAttribute="playback" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't judge strictly,I WILL TRY!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZl-Fu-OUd">
+                                <rect key="frame" x="125" y="430" width="186" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="6X1-lG-DZp"/>
+                                    <constraint firstAttribute="height" constant="100" id="i9z-d1-3dV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" systemColor="systemPinkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="LlW-pq-aoT">
+                                <rect key="frame" x="178" y="638" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="fFs-9Z-BVO"/>
+                                    <constraint firstAttribute="width" constant="80" id="jHs-5Z-FG5"/>
+                                </constraints>
+                                <color key="color" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aZl-Fu-OUd" secondAttribute="bottom" constant="288" id="6c4-SQ-oLS"/>
+                            <constraint firstItem="aZl-Fu-OUd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="C8B-xj-dXe"/>
+                            <constraint firstItem="LlW-pq-aoT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="178" id="De9-Q1-2x8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LlW-pq-aoT" secondAttribute="bottom" constant="100" id="EhU-9a-9rd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aZl-Fu-OUd" secondAttribute="trailing" constant="82" id="NR0-KQ-DqT"/>
+                            <constraint firstAttribute="bottom" secondItem="yTJ-EM-OvL" secondAttribute="bottom" id="VZq-5j-243"/>
+                            <constraint firstItem="yTJ-EM-OvL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="ZMG-vE-zpM"/>
+                            <constraint firstAttribute="trailing" secondItem="yTJ-EM-OvL" secondAttribute="trailing" id="i42-8x-oO1"/>
+                            <constraint firstItem="yTJ-EM-OvL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="n1f-i4-a9d"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="194.6564885496183" y="130.98591549295776"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreen" width="1023" height="682"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
